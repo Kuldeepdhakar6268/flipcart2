@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color:rgb(244, 242, 242);
 }
+
 .border{
     border: 1px solid black;
 }
@@ -80,12 +83,98 @@ header{
 }
 .more{
     height: 70%;
-    width: 4%;
+    width: 3%;
 }
 .more:hover{
     border: 1px solid gray;
     background-color: rgb(230, 224, 224);
     border-radius: 0.3rem;
+}
+.productfirst-parent{
+    width: 100vw;
+    height: 165px;
+}
+.productfirst{
+    width: 98vw;
+    height: 150px;
+    background-color: white;
+    border-radius: 0.1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+
+}
+.products{
+
+    height: 90%;
+    width: 10%;
+    font-family: "Palanquin", sans-serif;
+
+}
+
+.crosules-parent{
+    width: 100vw;
+    height: 180px;
+
+}
+
+.crosules{
+    width: 98vw;
+    height: 170px;
+    background-color: white;
+    border-radius: 0.1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    justify-content: space-evenly;
+}
+
+.Elecrtronics-parent{
+    width: 100vw;
+    height: 330px;
+    margin-top: 0.3rem;
+    
+}
+
+.Electronics{
+    width: 98vw;
+    height: 300px;
+    background-color: white;
+    border-radius: 0.1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.Electronics-card{
+    height: 250px;
+    width: 400px;
+    border: 1px solid rgb(219, 212, 212);
+    border-radius: 0.2rem;
+    margin-left: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+.Electronics-img{
+    width: 100%;
+    height: 70%;
+    background-size: contain;
+    background-position: center;
+    background-image: url(https://rukminim2.flixcart.com/image/612/612/xif0q/projector/k/f/0/zeb-pixaplay-22-green-16-zeb-pixaplay-22-green-led-zebronics-original-imagpqgasyrg2gzv.jpeg?q=70);
+    background-repeat: no-repeat;
+    padding: 5px;
+    transform: scale(0.8);
+    transition: all 0.3s;
+}
+
+.Electronics-img:hover{
+    transform: scale(0.9);
+}
+
+.Electronics-card-parent{
+    height: 90%;
+    width: 100vw;
+    justify-content: space-around;
+    overflow-x: scroll;
+
+
 }
 
 
