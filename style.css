@@ -136,7 +136,7 @@ header{
 
 .Electronics{
     width: 98vw;
-    height: 300px;
+    height: 330px;
     background-color: white;
     border-radius: 0.1rem;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -148,19 +148,21 @@ header{
     border: 1px solid rgb(219, 212, 212);
     border-radius: 0.2rem;
     margin-left: 1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    /* padding-left: 5rem; */
+    /* padding-right: 5rem; */
     
 }
 .Electronics-img{
-    width: 100%;
-    height: 70%;
+   
     background-size: contain;
     background-position: center;
-    background-image: url(https://rukminim2.flixcart.com/image/612/612/xif0q/projector/k/f/0/zeb-pixaplay-22-green-16-zeb-pixaplay-22-green-led-zebronics-original-imagpqgasyrg2gzv.jpeg?q=70);
+    /* background-image: url(); */
+    width: 100%;
+    height: 80%;
     background-repeat: no-repeat;
     padding: 5px;
     transform: scale(0.8);
+
     transition: all 0.3s;
 }
 
@@ -170,9 +172,9 @@ header{
 
 .Electronics-card-parent{
     height: 90%;
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
-    overflow-x: scroll;
+
 
 
 }
