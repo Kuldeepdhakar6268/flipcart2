@@ -304,21 +304,30 @@ footer{
     }
 
     .productfirst{
-       overflow-y: hidden;
+       /* overflow-y: scroll; */
        overflow-x: scroll;
-       
+       /* padding-left: 50rem; */
     
     }
      .products{
         width: 50rem;
         padding: 2rem;
+        height: 100%;
+        line-height: 1rem;
+        /* border: 2px solid black; */
+        
+
      }
     .products>img{
         width: 5rem;
         height: 5rem;
+
+    
     }
     .products>h4{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        text-align: center;
+        font-weight: 400;
     }
     .productfirst::-webkit-scrollbar{
         height: 0px;
