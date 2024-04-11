@@ -402,6 +402,9 @@ footer{
    .footer-second-button>img{
     width: 100%;
    }
+   .footer-text{
+    gap: 0.3rem;
+   }
 
 }
 
