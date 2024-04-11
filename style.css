@@ -376,8 +376,32 @@ footer{
         
         
     }
+   .footer-first-child{
+    display: inline;
+   }
+   footer{
+    /* display: block; */
+    height: 100%;
+   }
+   .footer-second-child{
+     display: inline;
+     height: 100%;
+     
+     
+    
+   }
+   .footer-second-button>p{
+     font-size: 0.5rem;
+    
 
+   }
+   .footer-second-button>svg{
+    width: 1.1rem;
 
+   }
+   .footer-second-button>img{
+    width: 100%;
+   }
 
 }
 
